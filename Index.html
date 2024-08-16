@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Bills</title>
+</head>
+
+<body>
+  <div class="header">
+    <h1>SPLI<br>TTER</h1>
+  </div>
+  <div class="container">
+    <div class="white">
+      <div class="bill">
+        <label for="bill">Bill</label>
+        <input type="numbers" name="Bill" id="Bill" placeholder="0" required class="place">
+        <span class="icon">
+          <i class="fa fa-usd" aria-hidden="true"></i>
+        </span>
+      </div>
+      <div class="tip">
+        <p>Select Tip %</p>
+        <div class="buttons">
+          <div class="btn1">
+            <div class="percent">5%</div>
+            <div class="percent">10%</div>
+            <div class="percent">15%</div>
+          </div>
+          <div class="btn2">
+            <div class="percent">25%</div>
+            <div class="percent">50%</div>
+            <div class="custom">Custom</div>
+          </div>
+        </div>
+      </div>
+      <div class="people">
+        <label for="People">Number of People</label>
+        <input type="numbers" name="People" id="people" class="place" placeholder="0">
+        <span class="icon2">
+          <i class="fa fa-user" aria-hidden="true"></i>
+        </span>
+      </div>
+    </div>
+    <div class="green">
+      <div class="tip-amount">
+        <div class="tip-amount-2">
+          <div>
+            <p class="person-senior">Tip Amount</p>
+            <p class="person">/person</p>
+          </div>
+          <p class="numbers">$0.00</p>
+        </div>
+        <hr class="hidden">
+        <div class="total">
+          <div>
+            <p class="person-senior">Total</p>
+            <p class="person">/person</p>
+          </div>
+          <p class="numbers">$0.00</p>
+          
+        </div>
+      </div>
+      <button>RESET</button>
+    </div>
+  </div>
+</body>
+
+</html>
