@@ -48,6 +48,8 @@ body{
    height: 30px;
    width: 300px;
    padding-left: 30px;
+   outline: none;
+   padding-top: 10px;
  }
  
  .buttons{
@@ -77,7 +79,7 @@ body{
    width: 75px;
  }
  
- .custom{
+ #custom{
    background-color: #F3F7FB;
    text-align: center;
    padding-top: 10px;
@@ -89,7 +91,7 @@ body{
    transition: background-color, width 0.1s;
  }
  
- .custom:hover{
+ #custom:hover{
    background-color: #FFFFFF;
    width: 75px;
  }
@@ -135,6 +137,7 @@ body{
  
  .numbers{
    font-weight: 60px;
+   padding-right: 10%;
    font-size: 1.5rem;
    color: #21988C;
  }
