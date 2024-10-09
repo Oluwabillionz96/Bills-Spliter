@@ -30,7 +30,7 @@ for(let i = 0; i < tipsSelector.length; i++){
                   percentages = parseFloat(percentages);
                   bills.value = parseFloat(bills.value);
                   answer1 = bills.value * (percentages / 100);
-                  tipAmount.innerText. = parseFloat(bills.value) + parseFloat(answer1);
+                  tipAmount.innerText = parseFloat(bills.value) + parseFloat(answer1);
                     break;
                 case 'Custom':
                  percentages = parseFloat(prompt('Enter Percentage'));
